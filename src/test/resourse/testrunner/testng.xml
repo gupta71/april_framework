@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Hubspot regerssion suite">
+
+  <listeners>
+  <!-- <listener class-name="llistner.pdfListener"/> -->
+  <listener class-name="llistner.TestAllureListener"/> 
+<!-- <listener class-name="llistner.TesultsListener"/> -->
+
+</listeners> 
+ 
+
+<test name="hub spot functional regression suit test cases ">
+
+
+<classes>
+       
+        <class  name="testdatapage.Homepagetest"/>
+        <class  name="testdatapage.Logintest"/> 
+        <!-- <class  name="testdatapage.Contactspagetest"/> -->
+        
+</classes>
+</test>
+</suite>

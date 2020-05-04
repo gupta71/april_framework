@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: testdatapage.Logintest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 58.872 s <<< FAILURE! - in testdatapage.Logintest
+testdatapage.Logintest.logintest  Time elapsed: 41.832 s  <<< FAILURE!
+java.lang.AssertionError: expected [ null ] but found [null]
+	at testdatapage.Logintest.logintest(Logintest.java:57)
+

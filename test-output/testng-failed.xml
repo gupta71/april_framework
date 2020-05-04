@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hubspot regerssion suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="llistner.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" name="hub spot functional regression suit test cases (failed)">
+    <classes>
+      <class name="testdatapage.Logintest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifysignuplinktest"/>
+        </methods>
+      </class> <!-- testdatapage.Logintest -->
+    </classes>
+  </test> <!-- hub spot functional regression suit test cases (failed) -->
+</suite> <!-- Failed suite [Hubspot regerssion suite] -->
