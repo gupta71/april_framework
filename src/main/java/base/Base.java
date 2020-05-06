@@ -98,7 +98,7 @@ else if(env.equals("stage")) {
 	
 	public String getScreenshot() {
 		File src=((TakesScreenshot)getDriver()).getScreenshotAs(OutputType.FILE);
-		String path=System.getProperty("user.dir")+"//Screenshot"+System.currentTimeMillis()+".png";
+		String path=System.getProperty("user.dir")+"/Screenshot/"+System.currentTimeMillis()+".png";
 		File destination=new File(path);
 		
 		try {

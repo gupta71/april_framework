@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Hubspot_regerssion_suite" class="navigator-link">
-              <span class="suite-name border-failed">Hubspot regerssion suite</span>
+              <span class="suite-name border-skipped">Hubspot regerssion suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Hubspot_regerssion_suite" class="navigator-link ">
-                    <span>C:\Users\cute puja\eclipse-workspace\aprilpomser\src\test\resourse\testrunner\testng.xml</span>
+                    <span>C:\Users\cute puja\eclipse-workspace\aprilpomser\src\test\resourse\testrunner\parallelrunner.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Hubspot_regerssion_suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                    <span class="method-stats">6 methods,  3 skipped,  3 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Hubspot_regerssion_suite" class="hide-methods failed suite-Hubspot_regerssion_suite"> (hide)</a> <!-- hide-methods failed suite-Hubspot_regerssion_suite -->
-                      <a href="#" panel-name="suite-Hubspot_regerssion_suite" class="show-methods failed suite-Hubspot_regerssion_suite"> (show)</a> <!-- show-methods failed suite-Hubspot_regerssion_suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Hubspot_regerssion_suite" class="hide-methods skipped suite-Hubspot_regerssion_suite"> (hide)</a> <!-- hide-methods skipped suite-Hubspot_regerssion_suite -->
+                      <a href="#" panel-name="suite-Hubspot_regerssion_suite" class="show-methods skipped suite-Hubspot_regerssion_suite"> (show)</a> <!-- show-methods skipped suite-Hubspot_regerssion_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Hubspot_regerssion_suite">
+                    <div class="method-list-content skipped suite-Hubspot_regerssion_suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hubspot_regerssion_suite" title="testdatapage.Logintest" class="method navigator-link" hash-for-method="logintest">logintest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hubspot_regerssion_suite" title="testdatapage.Logintest" class="method navigator-link" hash-for-method="verifyloginpagetitletest">verifyloginpagetitletest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Hubspot_regerssion_suite" title="testdatapage.Logintest" class="method navigator-link" hash-for-method="verifysignuplinktest">verifysignuplinktest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Hubspot_regerssion_suite -->
+                    </div> <!-- method-list-content skipped suite-Hubspot_regerssion_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -121,22 +131,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Hubspot_regerssion_suite" title="testdatapage.Homepagetest" class="method navigator-link" hash-for-method="verifyhomepageheadertest">verifyhomepageheadertest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Hubspot_regerssion_suite" title="testdatapage.Homepagetest" class="method navigator-link" hash-for-method="verifyhomepagetitleTest">verifyhomepagetitleTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Hubspot_regerssion_suite" title="testdatapage.Homepagetest" class="method navigator-link" hash-for-method="verifyloggedinusertest">verifyloggedinusertest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Hubspot_regerssion_suite" title="testdatapage.Logintest" class="method navigator-link" hash-for-method="verifyloginpagetitletest">verifyloginpagetitletest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hubspot_regerssion_suite" title="testdatapage.Logintest" class="method navigator-link" hash-for-method="verifysignuplinktest">verifysignuplinktest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Hubspot_regerssion_suite -->
@@ -151,56 +151,200 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Hubspot_regerssion_suite" class="panel Hubspot_regerssion_suite">
-          <div class="suite-Hubspot_regerssion_suite-class-failed">
+          <div class="suite-Hubspot_regerssion_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">testdatapage.Logintest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="logintest">
+                  </a> <!-- logintest -->
+                  <span class="method-name">logintest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CUTEPUJA&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;9.0.4&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01299563+2725219]
+	Ordinal0 [0x01198551+1672529]
+	Ordinal0 [0x01080359+525145]
+	Ordinal0 [0x01010B77+68471]
+	Ordinal0 [0x0100D32C+54060]
+	Ordinal0 [0x0102CC37+183351]
+	Ordinal0 [0x0102CA3D+182845]
+	Ordinal0 [0x0102A94B+174411]
+	Ordinal0 [0x01012528+75048]
+	Ordinal0 [0x010135A0+79264]
+	Ordinal0 [0x01013539+79161]
+	Ordinal0 [0x011AD607+1758727]
+	GetHandleVerifier [0x013B6546+1050150]
+	GetHandleVerifier [0x013B6291+1049457]
+	GetHandleVerifier [0x013C10D7+1094071]
+	GetHandleVerifier [0x013B6B46+1051686]
+	Ordinal0 [0x011A5B06+1727238]
+	Ordinal0 [0x011AEB7B+1764219]
+	Ordinal0 [0x011AECE3+1764579]
+	Ordinal0 [0x011C4C05+1854469]
+	BaseThreadInitThunk [0x77686A14+36]
+	RtlInitializeExceptionChain [0x7791AB4F+143]
+	RtlInitializeExceptionChain [0x7791AB1A+90]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:476)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at base.Base.initdriver(Base.java:51)
+	at testdatapage.Logintest.setup(Logintest.java:48)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyloginpagetitletest">
+                  </a> <!-- verifyloginpagetitletest -->
+                  <span class="method-name">verifyloginpagetitletest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CUTEPUJA&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;9.0.4&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01299563+2725219]
+	Ordinal0 [0x01198551+1672529]
+	Ordinal0 [0x01080359+525145]
+	Ordinal0 [0x01010B77+68471]
+	Ordinal0 [0x0100D32C+54060]
+	Ordinal0 [0x0102CC37+183351]
+	Ordinal0 [0x0102CA3D+182845]
+	Ordinal0 [0x0102A94B+174411]
+	Ordinal0 [0x01012528+75048]
+	Ordinal0 [0x010135A0+79264]
+	Ordinal0 [0x01013539+79161]
+	Ordinal0 [0x011AD607+1758727]
+	GetHandleVerifier [0x013B6546+1050150]
+	GetHandleVerifier [0x013B6291+1049457]
+	GetHandleVerifier [0x013C10D7+1094071]
+	GetHandleVerifier [0x013B6B46+1051686]
+	Ordinal0 [0x011A5B06+1727238]
+	Ordinal0 [0x011AEB7B+1764219]
+	Ordinal0 [0x011AECE3+1764579]
+	Ordinal0 [0x011C4C05+1854469]
+	BaseThreadInitThunk [0x77686A14+36]
+	RtlInitializeExceptionChain [0x7791AB4F+143]
+	RtlInitializeExceptionChain [0x7791AB1A+90]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:476)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at base.Base.initdriver(Base.java:51)
+	at testdatapage.Logintest.setup(Logintest.java:48)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="verifysignuplinktest">
                   </a> <!-- verifysignuplinktest -->
                   <span class="method-name">verifysignuplinktest</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Sign up111 (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at util.Elementutil.waitforelementpresent(Elementutil.java:93)
-	at pagelayer.Loginpage.checksignuplink(Loginpage.java:39)
-	at testdatapage.Logintest.verifysignuplinktest(Logintest.java:63)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign up111&quot;}
-  (Session info: chrome=81.0.4044.129)
-  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 83
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;CUTEPUJA&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;9.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\CUTEPU~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.129, webStorageEnabled: true}
-Session ID: 919a417c7942e836578610e623f10c36
-*** Element info: {Using=link text, value=Sign up111}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x01299563+2725219]
+	Ordinal0 [0x01198551+1672529]
+	Ordinal0 [0x01080359+525145]
+	Ordinal0 [0x01010B77+68471]
+	Ordinal0 [0x0100D32C+54060]
+	Ordinal0 [0x0102CC37+183351]
+	Ordinal0 [0x0102CA3D+182845]
+	Ordinal0 [0x0102A94B+174411]
+	Ordinal0 [0x01012528+75048]
+	Ordinal0 [0x010135A0+79264]
+	Ordinal0 [0x01013539+79161]
+	Ordinal0 [0x011AD607+1758727]
+	GetHandleVerifier [0x013B6546+1050150]
+	GetHandleVerifier [0x013B6291+1049457]
+	GetHandleVerifier [0x013C10D7+1094071]
+	GetHandleVerifier [0x013B6B46+1051686]
+	Ordinal0 [0x011A5B06+1727238]
+	Ordinal0 [0x011AEB7B+1764219]
+	Ordinal0 [0x011AECE3+1764579]
+	Ordinal0 [0x011C4C05+1854469]
+	BaseThreadInitThunk [0x77686A14+36]
+	RtlInitializeExceptionChain [0x7791AB4F+143]
+	RtlInitializeExceptionChain [0x7791AB1A+90]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:476)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 28 more
-... Removed 29 stack frames
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at base.Base.initdriver(Base.java:51)
+	at testdatapage.Logintest.setup(Logintest.java:48)
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Hubspot_regerssion_suite-class-failed -->
+          </div> <!-- suite-Hubspot_regerssion_suite-class-skipped -->
           <div class="suite-Hubspot_regerssion_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -221,33 +365,11 @@ Session ID: 919a417c7942e836578610e623f10c36
                   <span class="method-name">verifyloginpagetitletest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Hubspot_regerssion_suite-class-passed -->
-          <div class="suite-Hubspot_regerssion_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testdatapage.Homepagetest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyhomepageheadertest">
-                  </a> <!-- verifyhomepageheadertest -->
-                  <span class="method-name">verifyhomepageheadertest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyhomepagetitleTest">
-                  </a> <!-- verifyhomepagetitleTest -->
-                  <span class="method-name">verifyhomepagetitleTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyloggedinusertest">
-                  </a> <!-- verifyloggedinusertest -->
-                  <span class="method-name">verifyloggedinusertest</span>
+                  <a name="verifysignuplinktest">
+                  </a> <!-- verifysignuplinktest -->
+                  <span class="method-name">verifysignuplinktest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -255,7 +377,7 @@ Session ID: 919a417c7942e836578610e623f10c36
         </div> <!-- panel Hubspot_regerssion_suite -->
         <div panel-name="test-xml-Hubspot_regerssion_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\cute puja\eclipse-workspace\aprilpomser\src\test\resourse\testrunner\testng.xml</span>
+            <span class="header-content">C:\Users\cute puja\eclipse-workspace\aprilpomser\src\test\resourse\testrunner\parallelrunner.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -265,12 +387,18 @@ Session ID: 919a417c7942e836578610e623f10c36
   &lt;listeners&gt;
     &lt;listener class-name=&quot;llistner.TestAllureListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;hub spot functional regression suit test cases &quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;hub spot functional regression suit test cases -FF&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testdatapage.Homepagetest&quot;/&gt;
       &lt;class name=&quot;testdatapage.Logintest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- hub spot functional regression suit test cases  --&gt;
+  &lt;/test&gt; &lt;!-- hub spot functional regression suit test cases -FF --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;hub spot functional regression suit test cases -chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testdatapage.Logintest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- hub spot functional regression suit test cases -chrome --&gt;
 &lt;/suite&gt; &lt;!-- Hubspot regerssion suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -282,7 +410,10 @@ Session ID: 919a417c7942e836578610e623f10c36
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">hub spot functional regression suit test cases  (2 classes)</span>
+                <span class="test-name">hub spot functional regression suit test cases -FF (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">hub spot functional regression suit test cases -chrome (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -320,32 +451,32 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'logintest')
 data.setCell(0, 2, 'testdatapage.Logintest')
-data.setCell(0, 3, 24320);
+data.setCell(0, 3, 25289);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifysignuplinktest')
 data.setCell(1, 2, 'testdatapage.Logintest')
-data.setCell(1, 3, 13059);
+data.setCell(1, 3, 17864);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyhomepagetitleTest')
-data.setCell(2, 2, 'testdatapage.Homepagetest')
-data.setCell(2, 3, 705);
+data.setCell(2, 1, 'verifyloginpagetitletest')
+data.setCell(2, 2, 'testdatapage.Logintest')
+data.setCell(2, 3, 56);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyloggedinusertest')
-data.setCell(3, 2, 'testdatapage.Homepagetest')
-data.setCell(3, 3, 167);
+data.setCell(3, 1, 'logintest')
+data.setCell(3, 2, 'testdatapage.Logintest')
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyhomepageheadertest')
-data.setCell(4, 2, 'testdatapage.Homepagetest')
-data.setCell(4, 3, 117);
+data.setCell(4, 1, 'verifyloginpagetitletest')
+data.setCell(4, 2, 'testdatapage.Logintest')
+data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyloginpagetitletest')
+data.setCell(5, 1, 'verifysignuplinktest')
 data.setCell(5, 2, 'testdatapage.Logintest')
-data.setCell(5, 3, 43);
+data.setCell(5, 3, 0);
 window.suiteTableData['Hubspot_regerssion_suite']= { tableData: data, tableDiv: 'times-div-Hubspot_regerssion_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-Hubspot_regerssion_suite">
               </div> <!-- times-div-Hubspot_regerssion_suite -->
             </div> <!-- times-div -->
@@ -371,76 +502,45 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testdatapage.Homepagetest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">testdatapage.Logintest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setup</span>
-                <span class="method-start">43859 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testdatapage.Homepagetest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyhomepagetitleTest</span>
-                <span class="method-start">49328 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testdatapage.Logintest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyloginpagetitletest</span>
-                <span class="method-start">50427 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testdatapage.Homepagetest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyhomepageheadertest</span>
-                <span class="method-start">50550 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testdatapage.Logintest</div> <!-- chronological-class-name -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">verifysignuplinktest</span>
-                <span class="method-start">50677 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testdatapage.Homepagetest</div> <!-- chronological-class-name -->
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">28672 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">verifyloggedinusertest</span>
-                <span class="method-start">64594 ms</span>
+                <span class="method-name">verifyloginpagetitletest</span>
+                <span class="method-start">39992 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testdatapage.Logintest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifysignuplinktest</span>
+                <span class="method-start">40061 ms</span>
+              </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logintest</span>
-                <span class="method-start">64768 ms</span>
+                <span class="method-start">57952 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testdatapage.Homepagetest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">89101 ms</span>
+                <span class="method-start">83251 ms</span>
               </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testdatapage.Logintest</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">90700 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">verifyloginpagetitletest</span>
+                <span class="method-start">-1588745535597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifysignuplinktest</span>
+                <span class="method-start">-1588745535597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logintest</span>
+                <span class="method-start">-1588745535597 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

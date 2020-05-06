@@ -26,8 +26,10 @@
  * private static final String OUTPUT_FOLDER = "./build/"; private static final
  * String FILE_NAME = "TestExecutionReport.html";
  * 
- * private static ExtentReports extent = init(); public static
- * ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
+ * private static ExtentReports extent = init(); 
+ * here we have to intilize extent report with Threadlocal,if we r not writing then one thread result will override anoter 
+ * theread local.bcz report should be also in parallel mode
+ * public staticThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
  * 
  * private static ExtentReports init() {
  * 

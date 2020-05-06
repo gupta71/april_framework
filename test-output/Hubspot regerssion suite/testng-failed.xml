@@ -4,15 +4,18 @@
   <listeners>
     <listener class-name="llistner.TestAllureListener"/>
   </listeners>
-  <test thread-count="5" name="hub spot functional regression suit test cases (failed)">
+  <test thread-count="5" name="hub spot functional regression suit test cases -FF(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="testdatapage.Logintest">
         <methods>
+          <include name="logintest"/>
+          <include name="verifyloginpagetitletest"/>
           <include name="setup"/>
           <include name="teardown"/>
           <include name="verifysignuplinktest"/>
         </methods>
       </class> <!-- testdatapage.Logintest -->
     </classes>
-  </test> <!-- hub spot functional regression suit test cases (failed) -->
+  </test> <!-- hub spot functional regression suit test cases -FF(failed) -->
 </suite> <!-- Failed suite [Hubspot regerssion suite] -->
