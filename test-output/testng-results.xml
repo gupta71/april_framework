@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="6" passed="3" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-06T06:12:15Z" name="Hubspot regerssion suite" finished-at="2020-05-06T06:13:39Z" duration-ms="84168">
+  <suite started-at="2020-05-13T07:08:45Z" name="Hubspot regerssion suite" finished-at="2020-05-13T07:11:11Z" duration-ms="145488">
     <groups>
       <group name="sanity">
         <method signature="Logintest.verifysignuplinktest()[pri:2, instance:testdatapage.Logintest@117bcfdc]" name="verifysignuplinktest" class="testdatapage.Logintest"/>
         <method signature="Logintest.verifysignuplinktest()[pri:2, instance:testdatapage.Logintest@28e19366]" name="verifysignuplinktest" class="testdatapage.Logintest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2020-05-06T06:12:15Z" name="hub spot functional regression suit test cases -FF" finished-at="2020-05-06T06:12:42Z" duration-ms="26593">
+    <test started-at="2020-05-13T07:08:45Z" name="hub spot functional regression suit test cases -FF" finished-at="2020-05-13T07:09:35Z" duration-ms="49521">
       <class name="testdatapage.Logintest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testdatapage.Logintest@117bcfdc]" started-at="2020-05-06T06:12:15Z" name="setup" finished-at="2020-05-06T06:12:40Z" duration-ms="25194" status="FAIL">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testdatapage.Logintest@117bcfdc]" started-at="2020-05-13T07:08:45Z" name="setup" finished-at="2020-05-13T07:09:32Z" duration-ms="46130" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -26,26 +26,26 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'CUTEPUJA', ip: '192.168.1.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '9.0.4'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x01299563+2725219]
-Ordinal0 [0x01198551+1672529]
-Ordinal0 [0x01080359+525145]
-Ordinal0 [0x01010B77+68471]
-Ordinal0 [0x0100D32C+54060]
-Ordinal0 [0x0102CC37+183351]
-Ordinal0 [0x0102CA3D+182845]
-Ordinal0 [0x0102A94B+174411]
-Ordinal0 [0x01012528+75048]
-Ordinal0 [0x010135A0+79264]
-Ordinal0 [0x01013539+79161]
-Ordinal0 [0x011AD607+1758727]
-GetHandleVerifier [0x013B6546+1050150]
-GetHandleVerifier [0x013B6291+1049457]
-GetHandleVerifier [0x013C10D7+1094071]
-GetHandleVerifier [0x013B6B46+1051686]
-Ordinal0 [0x011A5B06+1727238]
-Ordinal0 [0x011AEB7B+1764219]
-Ordinal0 [0x011AECE3+1764579]
-Ordinal0 [0x011C4C05+1854469]
+Ordinal0 [0x01419563+2725219]
+Ordinal0 [0x01318551+1672529]
+Ordinal0 [0x01200359+525145]
+Ordinal0 [0x01190B77+68471]
+Ordinal0 [0x0118D32C+54060]
+Ordinal0 [0x011ACC37+183351]
+Ordinal0 [0x011ACA3D+182845]
+Ordinal0 [0x011AA94B+174411]
+Ordinal0 [0x01192528+75048]
+Ordinal0 [0x011935A0+79264]
+Ordinal0 [0x01193539+79161]
+Ordinal0 [0x0132D607+1758727]
+GetHandleVerifier [0x01536546+1050150]
+GetHandleVerifier [0x01536291+1049457]
+GetHandleVerifier [0x015410D7+1094071]
+GetHandleVerifier [0x01536B46+1051686]
+Ordinal0 [0x01325B06+1727238]
+Ordinal0 [0x0132EB7B+1764219]
+Ordinal0 [0x0132ECE3+1764579]
+Ordinal0 [0x01344C05+1854469]
 BaseThreadInitThunk [0x77686A14+36]
 RtlInitializeExceptionChain [0x7791AB4F+143]
 RtlInitializeExceptionChain [0x7791AB1A+90]
@@ -57,26 +57,26 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'CUTEPUJA', ip: '192.168.1.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '9.0.4'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x01299563+2725219]
-Ordinal0 [0x01198551+1672529]
-Ordinal0 [0x01080359+525145]
-Ordinal0 [0x01010B77+68471]
-Ordinal0 [0x0100D32C+54060]
-Ordinal0 [0x0102CC37+183351]
-Ordinal0 [0x0102CA3D+182845]
-Ordinal0 [0x0102A94B+174411]
-Ordinal0 [0x01012528+75048]
-Ordinal0 [0x010135A0+79264]
-Ordinal0 [0x01013539+79161]
-Ordinal0 [0x011AD607+1758727]
-GetHandleVerifier [0x013B6546+1050150]
-GetHandleVerifier [0x013B6291+1049457]
-GetHandleVerifier [0x013C10D7+1094071]
-GetHandleVerifier [0x013B6B46+1051686]
-Ordinal0 [0x011A5B06+1727238]
-Ordinal0 [0x011AEB7B+1764219]
-Ordinal0 [0x011AECE3+1764579]
-Ordinal0 [0x011C4C05+1854469]
+Ordinal0 [0x01419563+2725219]
+Ordinal0 [0x01318551+1672529]
+Ordinal0 [0x01200359+525145]
+Ordinal0 [0x01190B77+68471]
+Ordinal0 [0x0118D32C+54060]
+Ordinal0 [0x011ACC37+183351]
+Ordinal0 [0x011ACA3D+182845]
+Ordinal0 [0x011AA94B+174411]
+Ordinal0 [0x01192528+75048]
+Ordinal0 [0x011935A0+79264]
+Ordinal0 [0x01193539+79161]
+Ordinal0 [0x0132D607+1758727]
+GetHandleVerifier [0x01536546+1050150]
+GetHandleVerifier [0x01536291+1049457]
+GetHandleVerifier [0x015410D7+1094071]
+GetHandleVerifier [0x01536B46+1051686]
+Ordinal0 [0x01325B06+1727238]
+Ordinal0 [0x0132EB7B+1764219]
+Ordinal0 [0x0132ECE3+1764579]
+Ordinal0 [0x01344C05+1854469]
 BaseThreadInitThunk [0x77686A14+36]
 RtlInitializeExceptionChain [0x7791AB4F+143]
 RtlInitializeExceptionChain [0x7791AB1A+90]
@@ -139,7 +139,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyloginpagetitletest()[pri:1, instance:testdatapage.Logintest@117bcfdc]" started-at="2020-05-06T06:12:41Z" name="verifyloginpagetitletest" finished-at="2020-05-06T06:12:41Z" duration-ms="0" status="SKIP">
+        <test-method signature="verifyloginpagetitletest()[pri:1, instance:testdatapage.Logintest@117bcfdc]" started-at="2020-05-13T07:09:35Z" name="verifyloginpagetitletest" finished-at="2020-05-13T07:09:35Z" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 83
@@ -147,26 +147,26 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'CUTEPUJA', ip: '192.168.1.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '9.0.4'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x01299563+2725219]
-Ordinal0 [0x01198551+1672529]
-Ordinal0 [0x01080359+525145]
-Ordinal0 [0x01010B77+68471]
-Ordinal0 [0x0100D32C+54060]
-Ordinal0 [0x0102CC37+183351]
-Ordinal0 [0x0102CA3D+182845]
-Ordinal0 [0x0102A94B+174411]
-Ordinal0 [0x01012528+75048]
-Ordinal0 [0x010135A0+79264]
-Ordinal0 [0x01013539+79161]
-Ordinal0 [0x011AD607+1758727]
-GetHandleVerifier [0x013B6546+1050150]
-GetHandleVerifier [0x013B6291+1049457]
-GetHandleVerifier [0x013C10D7+1094071]
-GetHandleVerifier [0x013B6B46+1051686]
-Ordinal0 [0x011A5B06+1727238]
-Ordinal0 [0x011AEB7B+1764219]
-Ordinal0 [0x011AECE3+1764579]
-Ordinal0 [0x011C4C05+1854469]
+Ordinal0 [0x01419563+2725219]
+Ordinal0 [0x01318551+1672529]
+Ordinal0 [0x01200359+525145]
+Ordinal0 [0x01190B77+68471]
+Ordinal0 [0x0118D32C+54060]
+Ordinal0 [0x011ACC37+183351]
+Ordinal0 [0x011ACA3D+182845]
+Ordinal0 [0x011AA94B+174411]
+Ordinal0 [0x01192528+75048]
+Ordinal0 [0x011935A0+79264]
+Ordinal0 [0x01193539+79161]
+Ordinal0 [0x0132D607+1758727]
+GetHandleVerifier [0x01536546+1050150]
+GetHandleVerifier [0x01536291+1049457]
+GetHandleVerifier [0x015410D7+1094071]
+GetHandleVerifier [0x01536B46+1051686]
+Ordinal0 [0x01325B06+1727238]
+Ordinal0 [0x0132EB7B+1764219]
+Ordinal0 [0x0132ECE3+1764579]
+Ordinal0 [0x01344C05+1854469]
 BaseThreadInitThunk [0x77686A14+36]
 RtlInitializeExceptionChain [0x7791AB4F+143]
 RtlInitializeExceptionChain [0x7791AB1A+90]
@@ -178,26 +178,26 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'CUTEPUJA', ip: '192.168.1.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '9.0.4'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x01299563+2725219]
-Ordinal0 [0x01198551+1672529]
-Ordinal0 [0x01080359+525145]
-Ordinal0 [0x01010B77+68471]
-Ordinal0 [0x0100D32C+54060]
-Ordinal0 [0x0102CC37+183351]
-Ordinal0 [0x0102CA3D+182845]
-Ordinal0 [0x0102A94B+174411]
-Ordinal0 [0x01012528+75048]
-Ordinal0 [0x010135A0+79264]
-Ordinal0 [0x01013539+79161]
-Ordinal0 [0x011AD607+1758727]
-GetHandleVerifier [0x013B6546+1050150]
-GetHandleVerifier [0x013B6291+1049457]
-GetHandleVerifier [0x013C10D7+1094071]
-GetHandleVerifier [0x013B6B46+1051686]
-Ordinal0 [0x011A5B06+1727238]
-Ordinal0 [0x011AEB7B+1764219]
-Ordinal0 [0x011AECE3+1764579]
-Ordinal0 [0x011C4C05+1854469]
+Ordinal0 [0x01419563+2725219]
+Ordinal0 [0x01318551+1672529]
+Ordinal0 [0x01200359+525145]
+Ordinal0 [0x01190B77+68471]
+Ordinal0 [0x0118D32C+54060]
+Ordinal0 [0x011ACC37+183351]
+Ordinal0 [0x011ACA3D+182845]
+Ordinal0 [0x011AA94B+174411]
+Ordinal0 [0x01192528+75048]
+Ordinal0 [0x011935A0+79264]
+Ordinal0 [0x01193539+79161]
+Ordinal0 [0x0132D607+1758727]
+GetHandleVerifier [0x01536546+1050150]
+GetHandleVerifier [0x01536291+1049457]
+GetHandleVerifier [0x015410D7+1094071]
+GetHandleVerifier [0x01536B46+1051686]
+Ordinal0 [0x01325B06+1727238]
+Ordinal0 [0x0132EB7B+1764219]
+Ordinal0 [0x0132ECE3+1764579]
+Ordinal0 [0x01344C05+1854469]
 BaseThreadInitThunk [0x77686A14+36]
 RtlInitializeExceptionChain [0x7791AB4F+143]
 RtlInitializeExceptionChain [0x7791AB1A+90]
@@ -260,7 +260,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginpagetitletest -->
-        <test-method signature="verifysignuplinktest()[pri:2, instance:testdatapage.Logintest@117bcfdc]" started-at="2020-05-06T06:12:42Z" name="verifysignuplinktest" finished-at="2020-05-06T06:12:42Z" duration-ms="0" status="SKIP">
+        <test-method signature="verifysignuplinktest()[pri:2, instance:testdatapage.Logintest@117bcfdc]" started-at="2020-05-13T07:09:35Z" name="verifysignuplinktest" finished-at="2020-05-13T07:09:35Z" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 83
@@ -268,26 +268,26 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'CUTEPUJA', ip: '192.168.1.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '9.0.4'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x01299563+2725219]
-Ordinal0 [0x01198551+1672529]
-Ordinal0 [0x01080359+525145]
-Ordinal0 [0x01010B77+68471]
-Ordinal0 [0x0100D32C+54060]
-Ordinal0 [0x0102CC37+183351]
-Ordinal0 [0x0102CA3D+182845]
-Ordinal0 [0x0102A94B+174411]
-Ordinal0 [0x01012528+75048]
-Ordinal0 [0x010135A0+79264]
-Ordinal0 [0x01013539+79161]
-Ordinal0 [0x011AD607+1758727]
-GetHandleVerifier [0x013B6546+1050150]
-GetHandleVerifier [0x013B6291+1049457]
-GetHandleVerifier [0x013C10D7+1094071]
-GetHandleVerifier [0x013B6B46+1051686]
-Ordinal0 [0x011A5B06+1727238]
-Ordinal0 [0x011AEB7B+1764219]
-Ordinal0 [0x011AECE3+1764579]
-Ordinal0 [0x011C4C05+1854469]
+Ordinal0 [0x01419563+2725219]
+Ordinal0 [0x01318551+1672529]
+Ordinal0 [0x01200359+525145]
+Ordinal0 [0x01190B77+68471]
+Ordinal0 [0x0118D32C+54060]
+Ordinal0 [0x011ACC37+183351]
+Ordinal0 [0x011ACA3D+182845]
+Ordinal0 [0x011AA94B+174411]
+Ordinal0 [0x01192528+75048]
+Ordinal0 [0x011935A0+79264]
+Ordinal0 [0x01193539+79161]
+Ordinal0 [0x0132D607+1758727]
+GetHandleVerifier [0x01536546+1050150]
+GetHandleVerifier [0x01536291+1049457]
+GetHandleVerifier [0x015410D7+1094071]
+GetHandleVerifier [0x01536B46+1051686]
+Ordinal0 [0x01325B06+1727238]
+Ordinal0 [0x0132EB7B+1764219]
+Ordinal0 [0x0132ECE3+1764579]
+Ordinal0 [0x01344C05+1854469]
 BaseThreadInitThunk [0x77686A14+36]
 RtlInitializeExceptionChain [0x7791AB4F+143]
 RtlInitializeExceptionChain [0x7791AB1A+90]
@@ -299,26 +299,26 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'CUTEPUJA', ip: '192.168.1.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '9.0.4'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x01299563+2725219]
-Ordinal0 [0x01198551+1672529]
-Ordinal0 [0x01080359+525145]
-Ordinal0 [0x01010B77+68471]
-Ordinal0 [0x0100D32C+54060]
-Ordinal0 [0x0102CC37+183351]
-Ordinal0 [0x0102CA3D+182845]
-Ordinal0 [0x0102A94B+174411]
-Ordinal0 [0x01012528+75048]
-Ordinal0 [0x010135A0+79264]
-Ordinal0 [0x01013539+79161]
-Ordinal0 [0x011AD607+1758727]
-GetHandleVerifier [0x013B6546+1050150]
-GetHandleVerifier [0x013B6291+1049457]
-GetHandleVerifier [0x013C10D7+1094071]
-GetHandleVerifier [0x013B6B46+1051686]
-Ordinal0 [0x011A5B06+1727238]
-Ordinal0 [0x011AEB7B+1764219]
-Ordinal0 [0x011AECE3+1764579]
-Ordinal0 [0x011C4C05+1854469]
+Ordinal0 [0x01419563+2725219]
+Ordinal0 [0x01318551+1672529]
+Ordinal0 [0x01200359+525145]
+Ordinal0 [0x01190B77+68471]
+Ordinal0 [0x0118D32C+54060]
+Ordinal0 [0x011ACC37+183351]
+Ordinal0 [0x011ACA3D+182845]
+Ordinal0 [0x011AA94B+174411]
+Ordinal0 [0x01192528+75048]
+Ordinal0 [0x011935A0+79264]
+Ordinal0 [0x01193539+79161]
+Ordinal0 [0x0132D607+1758727]
+GetHandleVerifier [0x01536546+1050150]
+GetHandleVerifier [0x01536291+1049457]
+GetHandleVerifier [0x015410D7+1094071]
+GetHandleVerifier [0x01536B46+1051686]
+Ordinal0 [0x01325B06+1727238]
+Ordinal0 [0x0132EB7B+1764219]
+Ordinal0 [0x0132ECE3+1764579]
+Ordinal0 [0x01344C05+1854469]
 BaseThreadInitThunk [0x77686A14+36]
 RtlInitializeExceptionChain [0x7791AB4F+143]
 RtlInitializeExceptionChain [0x7791AB1A+90]
@@ -381,7 +381,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifysignuplinktest -->
-        <test-method signature="logintest()[pri:3, instance:testdatapage.Logintest@117bcfdc]" started-at="2020-05-06T06:12:42Z" name="logintest" finished-at="2020-05-06T06:12:42Z" duration-ms="0" status="SKIP">
+        <test-method signature="logintest()[pri:3, instance:testdatapage.Logintest@117bcfdc]" started-at="2020-05-13T07:09:35Z" name="logintest" finished-at="2020-05-13T07:09:35Z" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 83
@@ -389,26 +389,26 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'CUTEPUJA', ip: '192.168.1.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '9.0.4'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x01299563+2725219]
-Ordinal0 [0x01198551+1672529]
-Ordinal0 [0x01080359+525145]
-Ordinal0 [0x01010B77+68471]
-Ordinal0 [0x0100D32C+54060]
-Ordinal0 [0x0102CC37+183351]
-Ordinal0 [0x0102CA3D+182845]
-Ordinal0 [0x0102A94B+174411]
-Ordinal0 [0x01012528+75048]
-Ordinal0 [0x010135A0+79264]
-Ordinal0 [0x01013539+79161]
-Ordinal0 [0x011AD607+1758727]
-GetHandleVerifier [0x013B6546+1050150]
-GetHandleVerifier [0x013B6291+1049457]
-GetHandleVerifier [0x013C10D7+1094071]
-GetHandleVerifier [0x013B6B46+1051686]
-Ordinal0 [0x011A5B06+1727238]
-Ordinal0 [0x011AEB7B+1764219]
-Ordinal0 [0x011AECE3+1764579]
-Ordinal0 [0x011C4C05+1854469]
+Ordinal0 [0x01419563+2725219]
+Ordinal0 [0x01318551+1672529]
+Ordinal0 [0x01200359+525145]
+Ordinal0 [0x01190B77+68471]
+Ordinal0 [0x0118D32C+54060]
+Ordinal0 [0x011ACC37+183351]
+Ordinal0 [0x011ACA3D+182845]
+Ordinal0 [0x011AA94B+174411]
+Ordinal0 [0x01192528+75048]
+Ordinal0 [0x011935A0+79264]
+Ordinal0 [0x01193539+79161]
+Ordinal0 [0x0132D607+1758727]
+GetHandleVerifier [0x01536546+1050150]
+GetHandleVerifier [0x01536291+1049457]
+GetHandleVerifier [0x015410D7+1094071]
+GetHandleVerifier [0x01536B46+1051686]
+Ordinal0 [0x01325B06+1727238]
+Ordinal0 [0x0132EB7B+1764219]
+Ordinal0 [0x0132ECE3+1764579]
+Ordinal0 [0x01344C05+1854469]
 BaseThreadInitThunk [0x77686A14+36]
 RtlInitializeExceptionChain [0x7791AB4F+143]
 RtlInitializeExceptionChain [0x7791AB1A+90]
@@ -420,26 +420,26 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'CUTEPUJA', ip: '192.168.1.13', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '9.0.4'
 Driver info: driver.version: ChromeDriver
 remote stacktrace: Backtrace:
-Ordinal0 [0x01299563+2725219]
-Ordinal0 [0x01198551+1672529]
-Ordinal0 [0x01080359+525145]
-Ordinal0 [0x01010B77+68471]
-Ordinal0 [0x0100D32C+54060]
-Ordinal0 [0x0102CC37+183351]
-Ordinal0 [0x0102CA3D+182845]
-Ordinal0 [0x0102A94B+174411]
-Ordinal0 [0x01012528+75048]
-Ordinal0 [0x010135A0+79264]
-Ordinal0 [0x01013539+79161]
-Ordinal0 [0x011AD607+1758727]
-GetHandleVerifier [0x013B6546+1050150]
-GetHandleVerifier [0x013B6291+1049457]
-GetHandleVerifier [0x013C10D7+1094071]
-GetHandleVerifier [0x013B6B46+1051686]
-Ordinal0 [0x011A5B06+1727238]
-Ordinal0 [0x011AEB7B+1764219]
-Ordinal0 [0x011AECE3+1764579]
-Ordinal0 [0x011C4C05+1854469]
+Ordinal0 [0x01419563+2725219]
+Ordinal0 [0x01318551+1672529]
+Ordinal0 [0x01200359+525145]
+Ordinal0 [0x01190B77+68471]
+Ordinal0 [0x0118D32C+54060]
+Ordinal0 [0x011ACC37+183351]
+Ordinal0 [0x011ACA3D+182845]
+Ordinal0 [0x011AA94B+174411]
+Ordinal0 [0x01192528+75048]
+Ordinal0 [0x011935A0+79264]
+Ordinal0 [0x01193539+79161]
+Ordinal0 [0x0132D607+1758727]
+GetHandleVerifier [0x01536546+1050150]
+GetHandleVerifier [0x01536291+1049457]
+GetHandleVerifier [0x015410D7+1094071]
+GetHandleVerifier [0x01536B46+1051686]
+Ordinal0 [0x01325B06+1727238]
+Ordinal0 [0x0132EB7B+1764219]
+Ordinal0 [0x0132ECE3+1764579]
+Ordinal0 [0x01344C05+1854469]
 BaseThreadInitThunk [0x77686A14+36]
 RtlInitializeExceptionChain [0x7791AB4F+143]
 RtlInitializeExceptionChain [0x7791AB1A+90]
@@ -502,15 +502,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testdatapage.Logintest@117bcfdc]" started-at="2020-05-06T06:12:42Z" name="teardown" finished-at="2020-05-06T06:12:42Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testdatapage.Logintest@117bcfdc]" started-at="2020-05-13T07:09:35Z" name="teardown" finished-at="2020-05-13T07:09:35Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testdatapage.Logintest -->
     </test> <!-- hub spot functional regression suit test cases -FF -->
-    <test started-at="2020-05-06T06:12:44Z" name="hub spot functional regression suit test cases -chrome" finished-at="2020-05-06T06:13:39Z" duration-ms="55486">
+    <test started-at="2020-05-13T07:09:38Z" name="hub spot functional regression suit test cases -chrome" finished-at="2020-05-13T07:11:11Z" duration-ms="93304">
       <class name="testdatapage.Logintest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testdatapage.Logintest@28e19366]" started-at="2020-05-06T06:12:44Z" name="setup" finished-at="2020-05-06T06:12:55Z" duration-ms="11318" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testdatapage.Logintest@28e19366]" started-at="2020-05-13T07:09:38Z" name="setup" finished-at="2020-05-13T07:10:07Z" duration-ms="29881" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -521,19 +521,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyloginpagetitletest()[pri:1, instance:testdatapage.Logintest@28e19366]" started-at="2020-05-06T06:12:55Z" name="verifyloginpagetitletest" finished-at="2020-05-06T06:12:55Z" duration-ms="56" status="PASS">
+        <test-method signature="verifyloginpagetitletest()[pri:1, instance:testdatapage.Logintest@28e19366]" started-at="2020-05-13T07:10:07Z" name="verifyloginpagetitletest" finished-at="2020-05-13T07:10:08Z" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyloginpagetitletest -->
-        <test-method signature="verifysignuplinktest()[pri:2, instance:testdatapage.Logintest@28e19366]" started-at="2020-05-06T06:12:55Z" name="verifysignuplinktest" finished-at="2020-05-06T06:13:13Z" duration-ms="17864" status="PASS">
+        <test-method signature="verifysignuplinktest()[pri:2, instance:testdatapage.Logintest@28e19366]" started-at="2020-05-13T07:10:08Z" name="verifysignuplinktest" finished-at="2020-05-13T07:10:23Z" duration-ms="15177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifysignuplinktest -->
-        <test-method signature="logintest()[pri:3, instance:testdatapage.Logintest@28e19366]" started-at="2020-05-06T06:13:13Z" name="logintest" finished-at="2020-05-06T06:13:38Z" duration-ms="25289" status="PASS">
+        <test-method signature="logintest()[pri:3, instance:testdatapage.Logintest@28e19366]" started-at="2020-05-13T07:10:23Z" name="logintest" finished-at="2020-05-13T07:11:09Z" duration-ms="45876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testdatapage.Logintest@28e19366]" started-at="2020-05-06T06:13:38Z" name="teardown" finished-at="2020-05-06T06:13:39Z" duration-ms="902" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testdatapage.Logintest@28e19366]" started-at="2020-05-13T07:11:09Z" name="teardown" finished-at="2020-05-13T07:11:11Z" duration-ms="1995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

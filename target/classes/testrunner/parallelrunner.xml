@@ -10,7 +10,7 @@
  
 
 <test name="hub spot functional regression suit test cases -FF">
-<parameter name="browser" value="firefox"/>
+<parameter name="browser" value="chrome"/>
 
 
 <classes>
@@ -19,11 +19,11 @@
         <!-- <class  name="testdatapage.Contactspagetest"/> -->
         </classes>
 
-</test>
+<!-- </test>
 <test name="hub spot functional regression suit test cases -chrome">
 <parameter name="browser" value="chrome"/>
 <classes>
        <class  name="testdatapage.Logintest"/> 
-    </classes>
+    </classes> -->
 </test>    
 </suite>
