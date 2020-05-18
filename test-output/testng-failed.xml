@@ -2,10 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Hubspot regerssion suite]" guice-stage="DEVELOPMENT">
   <listeners>
+    <listener class-name="llistner.pdfListener"/>
     <listener class-name="llistner.TestAllureListener"/>
+    <listener class-name="llistner.TesultsListener"/>
   </listeners>
-  <test thread-count="5" name="hub spot functional regression suit test cases -FF(failed)">
-    <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="hub spot functional regression suit test cases (failed)">
     <classes>
       <class name="testdatapage.Logintest">
         <methods>
@@ -16,6 +17,15 @@
           <include name="verifysignuplinktest"/>
         </methods>
       </class> <!-- testdatapage.Logintest -->
+      <class name="testdatapage.Homepagetest">
+        <methods>
+          <include name="verifyloggedinusertest"/>
+          <include name="verifyhomepagetitleTest"/>
+          <include name="teardown"/>
+          <include name="verifyhomepageheadertest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testdatapage.Homepagetest -->
     </classes>
-  </test> <!-- hub spot functional regression suit test cases -FF(failed) -->
+  </test> <!-- hub spot functional regression suit test cases (failed) -->
 </suite> <!-- Failed suite [Hubspot regerssion suite] -->

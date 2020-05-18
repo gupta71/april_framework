@@ -2,9 +2,9 @@
 <suite name="Hubspot regerssion suite">
 
   <listeners>
-  <!-- <listener class-name="llistner.pdfListener"/> -->
+   <listener class-name="llistner.pdfListener"/> 
   <listener class-name="llistner.TestAllureListener"/> 
-<!-- <listener class-name="llistner.TesultsListener"/> -->
+ <listener class-name="llistner.TesultsListener"/> 
 
 </listeners> 
  
@@ -16,7 +16,7 @@
        
         <class  name="testdatapage.Homepagetest"/>
         <class  name="testdatapage.Logintest"/> 
-        <!-- <class  name="testdatapage.Contactspagetest"/> -->
+         <class  name="testdatapage.Contactspagetest"/> 
         
 </classes>
 </test>
